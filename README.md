@@ -22,11 +22,11 @@ Asegúrate de tener instaladas las siguientes herramientas:
    git clone https://github.com/Cesar-Sanchez-DEV/App-usuarios.git
    cd App_usuarios
 2. **Instalar los Paquetes NuGet:**
-   Abre **Visual Studio 2022**.
-   Ve a la pestaña **Herramientas** > **Administración de paquetes NuGet** > **Administrar paquetes NuGet para la solución**.
-   Revisa si tienes los siguientes paquetes instalados:
-   Microsoft.EntityFrameworkCore.SqlServer.
-   Microsoft.EntityFrameworkCore.Tools.
+   - Abre **Visual Studio 2022**.
+   - Ve a la pestaña **Herramientas** > **Administración de paquetes NuGet** > **Administrar paquetes NuGet para la solución**.
+   - Revisa si tienes los siguientes paquetes instalados:
+   - Microsoft.EntityFrameworkCore.SqlServer.
+   - Microsoft.EntityFrameworkCore.Tools.
    
 4. **Crear la base de datos:** Para crear la base de datos, puedes usar la siguiente sentencia SQL:
    ```sql
