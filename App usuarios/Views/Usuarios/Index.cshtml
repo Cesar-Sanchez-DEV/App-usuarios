@@ -1,0 +1,30 @@
+﻿@model IEnumerable<App_usuarios.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Usuarios";
+}
+
+<div class="text-center" style="display:flex; justify-content:center; flex-direction: column;">
+    <h1 class="display-3" style="font-weight:400;">&lt;César Daniel Sánchez Moreno /&gt;</h1>
+    <p style="font-size:30px;">Hola wainy, esta es mi solución en .NET, saludos.</p>
+    <div style="position:fixed; top:0; max-width:1296px; height:100%; width:100%; opacity:.3; z-index: -1; background-image: url(https://wayni.pe/images/Logo%20Wayni%20Celeste.svg); background-repeat: no-repeat; background-position: center;"></div>
+</div>
+<h2 class="text-center">Usuarios:</h2>
+<p>
+    <a asp-action="Create" class="btn btn-success">Crear usuario</a>
+</p>
+<div style="display:grid; grid-template-columns:repeat(3,1fr);">
+    @foreach (var item in Model) {
+        <div class="card" style="width: 18rem;">
+            <div class="card-body" style="width:max-content">
+                <h5 class="card-title">@Html.DisplayFor(modelItem => item.Nombre) @Html.DisplayFor(modelItem => item.Apellido)</h5>
+                <p class="card-text">@Html.DisplayFor(modelItem => item.Dni)</p>
+                <div class="flex gap-2">
+                    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@item.Id">Editar</a> |
+                    <a asp-action="Details" class="btn btn-primary" asp-route-id="@item.Id">Detalles</a> |
+                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.Id">Eliminar</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
