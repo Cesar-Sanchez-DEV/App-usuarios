@@ -39,9 +39,9 @@ Asegúrate de tener instaladas las siguientes herramientas:
    	dni varchar(15)
    )
 5. **Usar Package Manager Console:**
-   Abre **Visual Studio 2022**.
-   Ve a la pestaña **Herramientas** > **Administración de paquetes NuGet** > **Consola del Administrador de paquetes**.
-   Ejecuta el siguiente comando:
+   - Abre **Visual Studio 2022**.
+   - Ve a la pestaña **Herramientas** > **Administración de paquetes NuGet** > **Consola del Administrador de paquetes**.
+   - Ejecuta el siguiente comando:
    ```bash
    Scaffold-DbContext "server=localhost; database=Nombre_de_la_BD; integrated security=true; Encrypt=false; Trusted_Connection=true;" Microsoft.EntityFrameworkCore.SqlServer -OutPutDir Models
    ```
