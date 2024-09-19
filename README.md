@@ -85,4 +85,7 @@ Asegúrate de tener instaladas las siguientes herramientas:
 - **Añade** tus capturas de pantalla en la sección "Capturas de Pantalla" para mostrar la aplicación en funcionamiento.
 - **Considera** agregar cualquier otra información adicional que consideres relevante para los usuarios de tu proyecto.
 
-Si necesitas más ayuda, contactame: [Linkedin](https://www.linkedin.com/in/cesar-sanchez-moreno/) | [Celular](928376511)
+## Contacto
+Si necesitas más ayuda, no dudes en contactarme:
+- **LinkedIn:** [Cesar Sanchez](https://www.linkedin.com/in/cesar-sanchez-moreno/)
+- **Celular:** +51 928 376 511
