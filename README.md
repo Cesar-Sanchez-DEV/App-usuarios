@@ -81,7 +81,7 @@ Asegúrate de tener instaladas las siguientes herramientas:
    Una vez configurado **appsetings.json** ejecuta la aplicación presionando **F5** o dandole click al botón de iniciar aplicación abajo de las pestañas principales de **Visual Studio 2022**
 ## Vista Previa de la aplicación:
 
-![Previa de la app](./screenshots/Captura_gestion_de_usuarios_App.png)
+![Previa de la app](./screenshots/app.png)
    
 ### Instrucciones para completar
 - **Reemplaza** `Nombre_de_la_BD` y `nombre_de_la_tabla` con los valores correspondientes.
