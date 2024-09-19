@@ -7,7 +7,7 @@ Este proyecto es una aplicación web para la gestión de usuarios, donde puedes 
 - **Visual Studio 2022**
 - **ASP.NET Core (versión 8.0.400)**
 - **Entity Framework**
-- **SQL Server** (o el sistema de base de datos que hayas elegido)
+- **SQL Server 19** (o el sistema de base de datos que hayas elegido)
 - **HTML/CSS** para la interfaz de usuario
 
 ## Requisitos Previos
